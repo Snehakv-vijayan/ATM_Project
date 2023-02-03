@@ -12,7 +12,7 @@ public class OptionMenu
 {
 	Scanner menuInput = new Scanner(System.in);
 	//each # rep 0-9
-	DecimalFormat moneyFormat = new DecimalFormat("'₹'######.00");
+	DecimalFormat moneyFormat = new DecimalFormat("'₹'######0.00");
 	HashMap<Integer, Account> data = new HashMap<Integer, Account>();
 	
 	public void getLogin() throws IOException
